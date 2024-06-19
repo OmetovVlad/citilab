@@ -16,6 +16,10 @@
   font-style: normal;
 }
 
+* {
+  -webkit-text-size-adjust: 100%;
+}
+
 .bso-obstetrician {
   font-family: "Montserrat", sans-serif;
 }
