@@ -3,12 +3,14 @@
     @@include('html/head.html', {
         "title":"Сборка GULP"
     })
-    <body>
+    <body class="content-page show-mask shift-head show-head">
         @@include('html/_header.html')
 
-        <main>
-            @@include('html/_hello.html')
-        </main>
+        <div class="wrapper">
+            <main class="wrapper-in">
+                @@include('html/_landing.html')
+            </main>
+        </div>
 
         @@include('html/_footer.html')
 
