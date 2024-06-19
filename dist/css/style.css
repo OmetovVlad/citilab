@@ -107,7 +107,7 @@
 
 .bso-obstetrician .bso-text-block .bso-p {
   margin: 0;
-  font-size: 14px;
+  font-size: 14px !important;
   line-height: 1.43;
   font-weight: normal;
   color: #1d293f;
@@ -231,7 +231,7 @@
   }
 
   .bso-obstetrician .bso-text-block .bso-p {
-    font-size: 20px;
+    font-size: 20px !important;
     line-height: 1.5;
   }
 
