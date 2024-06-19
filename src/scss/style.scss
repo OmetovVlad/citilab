@@ -94,6 +94,13 @@ body, * {
     text-transform: uppercase;
     border: 0;
     cursor: pointer;
+    @media (pointer: fine) {
+      transition: all 0.2s ease-out;
+      &:hover {
+        opacity: 0.9;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+      }
+    }
     &--secondary {
       background-color: #e6f8fd;
       color: #00b2e3;

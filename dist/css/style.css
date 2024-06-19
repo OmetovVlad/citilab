@@ -547,6 +547,20 @@ body,
   }
 }
 
+@media (pointer: fine) {
+  .bso-obstetrician .bso-button {
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+
+  .bso-obstetrician .bso-button:hover {
+    opacity: 0.9;
+    -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  }
+}
+
 .webp .bso-obstetrician .bso-banner{ background-image: url(../img/banner_1.webp); }
 
 @media (min-width: 998px){
