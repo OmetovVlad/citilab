@@ -57,11 +57,17 @@ body,
   font-weight: 500;
   text-transform: uppercase;
   border: 0;
+  cursor: pointer;
 }
 
 .bso-obstetrician .bso-button--secondary {
   background-color: #e6f8fd;
   color: #00b2e3;
+}
+
+.bso-obstetrician .bso-button--red {
+  background-color: #ea516d;
+  color: #fff;
 }
 
 .bso-obstetrician .bso-btns {
@@ -282,6 +288,36 @@ body,
   color: #1d293f;
 }
 
+.bso-obstetrician .bso-gradient-bg {
+  position: relative;
+  background-image: -o-linear-gradient(346deg, #00b2e3 4%, rgba(99, 203, 254, 0.65) 170%);
+  background-image: linear-gradient(104deg, #00b2e3 4%, rgba(99, 203, 254, 0.65) 170%);
+}
+
+.bso-obstetrician .bso-gradient-bg .container .bso-h3,
+.bso-obstetrician .bso-gradient-bg .container .bso-p {
+  color: #fff;
+}
+
+.bso-obstetrician .bso-gradient-bg .container .bso-h3 {
+  line-height: 1.07;
+}
+
+.bso-obstetrician .bso-gradient-bg .container .bso-p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+.bso-obstetrician .bso-gradient-bg .container .bso-price {
+  font-size: 16px;
+  line-height: 1.38;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 @media (min-width: 575px) {
   .bso-obstetrician .bso-btns {
     -webkit-box-orient: horizontal;
@@ -433,6 +469,60 @@ body,
     font-size: 18px;
     line-height: 1.4;
   }
+
+  .bso-obstetrician .bso-gradient-bg {
+    background-image: -o-linear-gradient(356deg, #00b2e3 -5%, rgba(99, 203, 254, 0.65) 187%);
+    background-image: linear-gradient(94deg, #00b2e3 -5%, rgba(99, 203, 254, 0.65) 187%);
+  }
+
+  .bso-obstetrician .bso-gradient-bg::before,
+  .bso-obstetrician .bso-gradient-bg::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 354px;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    z-index: 0;
+  }
+
+  .no-webp .bso-obstetrician .bso-gradient-bg::before{
+    background-image: url(../img/form_bg_l.png); }
+
+  .bso-obstetrician .bso-gradient-bg::before {
+    left: 0;
+    background-position: right center;
+  }
+
+  .no-webp .bso-obstetrician .bso-gradient-bg::after{
+    background-image: url(../img/form_bg_r.png); }
+
+  .bso-obstetrician .bso-gradient-bg::after {
+    right: 0;
+    background-position: left center;
+  }
+
+  .bso-obstetrician .bso-gradient-bg .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .bso-obstetrician .bso-gradient-bg .container .bso-h3 {
+    line-height: 1.3;
+  }
+
+  .bso-obstetrician .bso-gradient-bg .container .bso-p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .bso-obstetrician .bso-gradient-bg .container .bso-price {
+    font-size: 24px;
+    line-height: 1.33;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -458,3 +548,13 @@ body,
 }
 
 .webp .bso-obstetrician .bso-banner{ background-image: url(../img/banner_1.webp); }
+
+@media (min-width: 998px){
+
+  .webp .bso-obstetrician .bso-gradient-bg::before{ background-image: url(../img/form_bg_l.webp); }
+}
+
+@media (min-width: 998px){
+
+  .webp .bso-obstetrician .bso-gradient-bg::after{ background-image: url(../img/form_bg_r.webp); }
+}
