@@ -41,10 +41,10 @@
 @media (min-width: 1280px) {
 
 }
-@media (min-width: 768px) {
+@media (min-width: 998px) {
 
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 
 }
 @media (min-width: 575px) {
@@ -70,7 +70,7 @@
       background-color: #e6f8fd;
       color: #00b2e3;
     }
-    @media (min-width: 992px) {
+    @media (min-width: 998px) {
       font-size: 20px;
       line-height: 1.4;
     }
@@ -81,7 +81,7 @@
     background-size: cover;
     background-position: top center;
     padding: 40px 0;
-    @media (min-width: 992px) {
+    @media (min-width: 998px) {
       padding: 100px 0;
     }
     h3 {
@@ -94,7 +94,7 @@
       @media (min-width: 1280px) {
         font-size: 48px;
       }
-      @media (min-width: 992px) {
+      @media (min-width: 998px) {
         font-size: 44px;
       }
       @media (min-width: 768px) {
@@ -114,7 +114,7 @@
       @media (min-width: 1280px) {
         margin-top: 50px;
       }
-      @media (min-width: 992px) {
+      @media (min-width: 998px) {
         font-size: 24px;
         margin-top: 40px;
       }
@@ -128,7 +128,7 @@
         margin-top: 10px;
         font-weight: 600;
         color: #13aae0;
-        @media (min-width: 992px) {
+        @media (min-width: 998px) {
           margin-top: 20px;
         }
       }
@@ -143,7 +143,7 @@
       & > * {
         width: 100%;
       }
-      @media (min-width: 992px) {
+      @media (min-width: 998px) {
         margin-top: 50px;
         gap: 30px;
       }
@@ -159,7 +159,7 @@
   .bso-section {
     padding: 40px 0;
     background: #fff;
-    @media (min-width: 992px) {
+    @media (min-width: 998px) {
       padding: 100px 0;
     }
   }
@@ -167,21 +167,77 @@
   .bso-text-block {
     h3 {
       font-family: "Montserrat", sans-serif;
-      font-size: 28px;
+      font-size: 20px;
+      line-height: 1.3;
       font-weight: 600;
       color: #1d293f;
-      line-height: 1.3;
-      margin: 0 0 30px 0;
+      margin: 0 0 20px 0;
       text-transform: uppercase;
+      @media (min-width: 998px) {
+        font-size: 28px;
+        margin-bottom: 30px;
+      }
     }
     p {
       margin: 0;
-      font-size: 20px;
+      font-size: 14px;
+      line-height: 1.43;
       font-weight: normal;
-      line-height: 1.5;
       color: #1d293f;
+      @media (min-width: 998px) {
+        font-size: 20px;
+        line-height: 1.5;
+      }
       & + p {
         margin-top: 10px;
+      }
+    }
+  }
+
+  .bso-photo-block {
+    margin-top: 30px;
+    @media (min-width: 998px) {
+      margin-top: 0;
+    }
+    .bso-photo {
+      height: 300px;
+      border-radius: 20px;
+      background-image: url(@img/kinder.jpeg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bso-advantages-list {
+      margin-top: 10px;
+      @media (min-width: 998px) {
+        margin-top: 30px;
+      }
+      .bso-advantage {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 20px;
+        img {
+          display: block;
+          width: 14px;
+          margin-right: 20px;
+          @media (min-width: 1280px) {
+            width: 28px;
+          }
+          @media (min-width: 998px) {
+            width: 18px;
+          }
+        }
+        span {
+          display: block;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.6;
+          color: #13aae0;
+          @media (min-width: 1280px) {
+            font-size: 20px;
+          }
+        }
       }
     }
   }
