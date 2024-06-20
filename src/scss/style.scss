@@ -164,12 +164,19 @@ body, * {
       }
       @media (min-width: 998px) {
         font-size: 44px;
+        width: 100%;
       }
       @media (min-width: 768px) {
-        width: 100%;
+        width: 75%;
       }
       @media (min-width: 575px) {
         width: 77.77777778%;
+      }
+      br {
+        display: none;
+        @media (min-width: 998px){
+          display: block;
+        }
       }
     }
 

@@ -105,6 +105,10 @@ body,
   margin: 0;
 }
 
+.bso-obstetrician .bso-banner .bso-h3 br {
+  display: none;
+}
+
 .bso-obstetrician .bso-banner .bso-p {
   margin: 20px 0 0 0;
   font-size: 14px;
@@ -353,7 +357,7 @@ body,
 
 @media (min-width: 768px) {
   .bso-obstetrician .bso-banner .bso-h3 {
-    width: 100%;
+    width: 75%;
   }
 
   .bso-obstetrician .bso-banner .bso-p {
@@ -388,6 +392,11 @@ body,
 
   .bso-obstetrician .bso-banner .bso-h3 {
     font-size: 44px;
+    width: 100%;
+  }
+
+  .bso-obstetrician .bso-banner .bso-h3 br {
+    display: block;
   }
 
   .bso-obstetrician .bso-banner .bso-p {
