@@ -97,17 +97,27 @@ body, * {
     @media (pointer: fine) {
       transition: all 0.2s ease-out;
       &:hover {
-        opacity: 0.9;
+        background-color: #01D3FD;
         box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
       }
     }
     &--secondary {
       background-color: #e6f8fd;
       color: #00b2e3;
+      @media (pointer: fine) {
+        &:hover {
+          background-color: #f2fcff;
+        }
+      }
     }
     &--red {
       background-color: #ea516d;
       color: #fff;
+      @media (pointer: fine) {
+        &:hover {
+          background-color: #ff5574;
+        }
+      }
     }
     @media (min-width: 998px) {
       font-size: 20px;

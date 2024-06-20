@@ -555,9 +555,17 @@ body,
   }
 
   .bso-obstetrician .bso-button:hover {
-    opacity: 0.9;
+    background-color: #01D3FD;
     -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
             box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .bso-obstetrician .bso-button--secondary:hover {
+    background-color: #f2fcff;
+  }
+
+  .bso-obstetrician .bso-button--red:hover {
+    background-color: #ff5574;
   }
 }
 
