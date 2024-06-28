@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>СИТИЛАБ</title>
+    <title>СИТИЛАБ - Программы обследования по методу профессора Скального А.В.</title>
 
-    <link rel="stylesheet" href="https://citilab.ru/local/templates/citylab/css/bootstrap.css?_v=20240620125154'">
+    <link rel="stylesheet" href="https://citilab.ru/local/templates/citylab/css/bootstrap.css?_v=20240629045900'">
     
 
     <!-- Новые стили -->
-    <link rel="stylesheet" href="css/style.min.css?_v=20240620125154">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240629045900">
     <!-- // -->
 
 </head>
@@ -22,22 +22,21 @@
                 <div class="content">
 
   <!-- Акушерское сопровождение -->
-  <div class="bso-obstetrician">
+  <div class="bso-skalniy">
 
     <!-- Баннер -->
-    <div class="bso-banner">
+    <div class="bso-banner bso-banner--skalniy">
       <div class="container">
 
         <div class="row">
           <div class="col-xs-18">
-            <div class="bso-h3">Профессиональное акушерское <br>сопровождение беременности, <br>родов и восстановления</div>
+            <div class="bso-h3">Программы обследования по <br>методу профессора <br>Скального А.В.</div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-xs-18">
-            <div class="bso-p">От долгожданной новости о беременности <br>до первого дня рождения малыша</div>
-            <div class="bso-p bso-price">Стоимость услуги: 20 000 руб.</div>
+            <div class="bso-p">Уникальное персонализированное исследование, <br>основанное на определении содержания макро- <br>и микроэлементов в организме</div>
           </div>
         </div>
 
@@ -45,8 +44,8 @@
           <div class="col-xs-18 col-lg-13">
             <div class="bso-btns">
 
-              <button class="bso-button">Добавить в корзину</button>
-              <button class="bso-button--secondary bso-button">Записаться</button>
+              <button class="bso-button">Получить консультацию</button>
+              <!-- <a href="/files/presentation-skalniy.pdf" target="_blank" class="bso-button--secondary bso-button">Смотреть презентацию</a> -->
 
             </div>
           </div>
@@ -59,79 +58,985 @@
     <section class="bso-section">
       <div class="container">
         <div class="row">
-          <div class="col-xs-18 col-md-9">
-            <div class="bso-text-block">
-              <div class="bso-h3">Наш подход</div>
-              <div class="bso-p">В СитиЛаб мы помогаем будущим мамам чувствовать себя счастливыми в их новой роли. С несколькими тысячами женщин мы уже прошли путь от новости о беременности до рождения здорового малыша. Поэтому мы понимаем, к каким важным особенностям развития ребенка и изменениям самой женщины нужно отнестись с особым трепетом и вниманием.</div>
-              <div class="bso-p">Мы оказываем полную заботу будущей маме с первых дней беременности, продолжаем вести и помогать женщине в восстановлении после родов, а также внимательно следим за здоровьем малыша до года.</div>
-            </div>
+
+          <div class="col-xs-18">
+            <div class="bso-title">Анализы, которые нужны именно вам</div>
+            <div class="bso-subtitle">Выберете соответствующий раздел, если вы:</div>
           </div>
-          <div class="col-xs-18 col-md-9">
-            <div class="bso-photo-block">
-              <picture><source srcset="img/section_1.webp" type="image/webp"><img class="bso-photo" src="img/section_1.jpeg"/></picture>
 
-              <div class="bso-advantages-list">
-                <div class="row">
-                  <div class="col-xs-18 col-sm-9">
-                    <div class="bso-advantage">
-                      <picture><source srcset="img/icon_01.webp" type="image/webp"><img src="img/icon_01.png" alt=""></picture>
-                      <span>Опыт экспертов более 20 лет</span>
-                    </div>
-                  </div>
+          <div class="col-xs-18 bso-analysis">
 
-                  <div class="col-xs-18 col-sm-9">
-                    <div class="bso-advantage">
-                      <picture><source srcset="img/icon_01.webp" type="image/webp"><img src="img/icon_01.png" alt=""></picture>
-                      <span>Естественные и безопасные роды</span>
-                    </div>
-                  </div>
+            <div class="bso-analys">
+    <img src="img/skalniy_01.svg" alt="">
+    <div class="bso-span">Часто болеете</div>
 
-                  <div class="col-xs-18 col-sm-9">
-                    <div class="bso-advantage">
-                      <picture><source srcset="img/icon_02.webp" type="image/webp"><img src="img/icon_02.png" alt=""></picture>
-                      <span>Индивидуальный подход</span>
-                    </div>
-                  </div>
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Анализ микроэлементов поможет определить причины слабого иммунитета, подготовиться к сезону простуды, а также проконтролировать здоровье ребенка.</div>
 
-                  <div class="col-xs-18 col-sm-9">
-                    <div class="bso-advantage">
-                      <picture><source srcset="img/icon_02.webp" type="image/webp"><img src="img/icon_02.png" alt=""></picture>
-                      <span>Поддержка и комфорт на любом этапе</span>
-                    </div>
-                  </div>
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
                 </div>
-              </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
             </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_02.svg" alt="">
+    <div class="bso-span">Планируете беременность</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Группа исследователей из команды доктора Скального совместно с Лондонским университетом Goldsmiths University обследовали более 200 беременных женщин. Результаты говорят о важности макро и микроэлементов в организме матери для нормального протекания беременности и развития ребенка – снижается риск нарушения когнитивного, речевого, психомоторного развития.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_03.svg" alt="">
+    <div class="bso-span">Страдаете аллергическими реакциями</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Анализ может помочь как в максимально возможном уменьшении реакции в сезон аллергий, так и при единичных случаях проявлений.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_04.svg" alt="">
+    <div class="bso-span">Страдаете хроническими заболеваниями</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Хронические заболевания важно контролировать – так снижается риск осложнений, а также можно снизить их влияния на вашу жизнь и сделать ее более комфортной.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_05.svg" alt="">
+    <div class="bso-span">Имеете избыток массы тела или ожирение</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Причиной лишнего веса, а также неудачных попыток по избавлению от него может быть дисбаланс микроэлементов – его нормализация будет способствовать ускорению похудения.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_06.svg" alt="">
+    <div class="bso-span">Трудитесь в тяжелых и вредных условиях</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Даже при выполнении всех требований безопасности токсичные элементы могут проникать в ваш организм в малых количествах и накапливаться, что в дальнейшем повлечет проблемы со здоровьем.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_07.svg" alt="">
+    <div class="bso-span">Недовольны состоянием кожи, ногтей, волос, беспокоит выпадение волос</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Причинами проблем с кожей, ногтями и волосами может быть переизбыток или недостаток определенных микроэлементов, влияющих на обмен веществ тканевое дыхания и другие процессы, помогающие организму поддерживать вашу молодость.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_08.svg" alt="">
+    <div class="bso-span">Подвержены хроническим стрессам</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Современный человек подвержен многочисленным стрессам и не всегда получается с ними справиться. Ментального расстройства можно избежать и успешно преодолеть, если в вашем организме будет достаток необходимых для этого микро и макроэлементов.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_09.svg" alt="">
+    <div class="bso-span">Хотите побороть усталость и раздражительность</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Яркая и полноценная жизнь во многом зависит как от бодрости тела, так и духа. Преодолейте постоянную усталость и раздражительность, восполнив необходимые микроэлементы в своем организме!</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_10.svg" alt="">
+    <div class="bso-span">Регулярно занимаетесь спортом</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Наращивание мышечной массы, а также риск получения повреждений во время занятий спортом можно контролировать с помощью нормализации уровня микроэлементов в организме. Анализ будет полезен как новичкам, желающим ввести в свою жизнь физическую нагрузку, так и опытным спортсменам.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_11.svg" alt="">
+    <div class="bso-span">Понимаете необходимость профилактики проблем со здоровьем, в т.ч. профилактики старения</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Профилактика проблем со здоровьем становится популярной в современном мире — вовремя замеченный дисбаланс микроэлементов может помочь предотвратить развитие заболевания или его осложнение.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_12.svg" alt="">
+    <div class="bso-span">Соблюдаете специальные диеты <span>(по медицинским показаниям, вегетарианство, пескетарианство, сыроедение, веганство и т.д.)</span></div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Следование определенной диете может нарушить баланс микроэлементов в организме и влиять на ваше здоровье.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_13.svg" alt="">
+    <div class="bso-span">Принимаете лекарства продолжительное время</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Употребление различных лекарств на протяжении длительного времени, в т.ч. средства восточной и традиционной медицины, может влиять на организм негативным образом – для контроля ситуации необходимо сдавать анализы на микроэлементы.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div><div class="bso-analys">
+    <img src="img/skalniy_14.svg" alt="">
+    <div class="bso-span">Живете или работаете в условиях плохой экологии</div>
+
+    <!-- Отсюда будет браться вся информация -->
+    <div class="bso-analys-hidden-info">
+        <div class="bso-analys-head">Нахождение вблизи промышленных производств или оживленных трасс и проживание в загрязненных районах может привести к попаданию в организм вредных элементов, оказывающих негативное воздействие на здоровье.</div>
+
+        <div class="bso-analys-list">
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+            <!-- Услуга -->
+            <div class="bso-analys-item">
+                <div class="bso-analys-item-mobile-title">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                </div>
+                <div class="bso-analys-item_l">
+                    <div class="bso-analys-item-name">Элементный анализ крови</div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                        <div class="bso-analys-item-code">Код: 95-00-073</div>
+                    </div>
+                </div>
+                <div class="bso-analys-item_r">
+                    <div class="bso-analys-item-price">550 р.</div>
+                    <div class="bso-analys-item-byu">
+                        <button class="bso-button-any">
+                            <span>В корзину</span>
+                            <picture><source srcset="img/button_icon_bag.webp" type="image/webp"><img src="img/button_icon_bag.png" alt=""></picture>
+                        </button>
+                    </div>
+                    <div class="bso-analys-item-subline">
+                        <div class="bso-analys-item-dop">CITO: 880 р. Срок: 2-5 дней</div>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+        </div>
+    </div>
+    <!-- // -->
+</div>
+
           </div>
         </div>
       </div>
     </section>
 
     <!-- 2я секция -->
-    <section class="bso-section bso-turquoise-bg">
+    <section class="bso-section bso-section-2">
       <div class="container">
         <div class="row">
-          
-          <div class="col-xs-18 col-md-9">
-            <div class="bso-what-is-banner">
-              
-              <div class="bso-h3">Будущей маме бывает непросто найти ответы на все свои вопросы о беременности.</div>
-              <div class="bso-h3">Чтобы помочь женщине чувствовать себя комфортно и безопасно, мы предлагаем услугу <span class="bso-red-text">“Акушерское сопровождение”</span></div>
 
+          <div class="col-xs-18">
+            <div class="bso-title bso-title--left">Что такое элементный анализ</div>
+            <div class="bso-subtitle bso-subtitle--left bso-mobile-mb-min">Элементный анализ — уникальное исследование, основанное на определении содержания макро- и микроэлементов в организме. Эти соединения поступают из внешней среды с пищей, воздухом, через кожу и слизистые, поэтому их содержание во многом зависит от питания, образа жизни, условий труда, экологии. Нарушение баланса элементов отражается на функциональном состоянии практически всех систем организма и является первопричиной многих серьезных заболеваний.</div>
+          </div>
+
+          <div class="col-xs-18 col-md-9">
+            <div class="bso-photo-block">
+              <picture><source srcset="img/l2_section_2.webp" type="image/webp"><img class="bso-photo bso-photo--big" src="img/l2_section_2.jpeg"/></picture>
             </div>
           </div>
 
           <div class="col-xs-18 col-md-9">
-            <div class="bso-text-block">
-              <div class="bso-h3">Что такое акушерское сопровождение?</div>
-              <div class="bso-p">Профессиональная акушерка помогает будущей маме познакомится с новой собой, научиться принимать свои изменения, правильно интерпретировать их и главное — спокойно и легко родить здорового малыша.</div>
-              <div class="bso-p">Профессиональный опыт акушерки способен сделать беременность понятным и комфортным этапом в жизни. Вместе с акушеркой женщина обсуждает все волнующие ее вопросы, изучает подробную программу наблюдений, решает вопрос о необходимости тех или иных назначений, готовится к предстоящим родам.</div>
-
-              <div class="bso-price">Стоимость услуги: 20 000 руб.</div>
-
-              <div class="bso-btns">
-                <button class="bso-button">Добавить в корзину</button>
-              </div>
+            <div class="bso-text-b-title">Определение химических элементов позволяет узнать:</div>
+            <div class="bso-text-list">
+              <div class="bso-text-item">Насколько сбалансирован состав химических элементов в организме (менее 20% людей не имеют никаких отклонений).</div>
+              <div class="bso-text-item">Правильно ли вы питаетесь, обеспечивает ли Ваш рацион необходимый набор питательных веществ.</div>
+              <div class="bso-text-item">Какой ущерб организму наносят вредные привычки.</div>
+              <div class="bso-text-item">Насколько безопасны среда, в которой вы живете и работаете, пища, которую вы употребляете.</div>
+              <div class="bso-text-item">Верно ли функционируют желудок, кишечник, печень, почки, кожа, регулируя процессы всасывания и выведения веществ.</div>
+              <div class="bso-text-item">Нет ли хронических заболеваний или предрасположенности к ним.</div>
+              <div class="bso-text-item">Эффективны ли препараты, которыми вы пользуетесь для лечения.</div>
             </div>
           </div>
 
@@ -140,109 +1045,123 @@
     </section>
 
     <!-- 3я секция -->
-    <section class="bso-section">
+    <section class="bso-section bso-section-3 bso-turquoise-bg">
       <div class="container">
         <div class="row">
 
           <div class="col-xs-18">
-            <div class="bso-title">Что входит в акушерское сопровождение?</div>
+            <div class="bso-title">Преимущества и уникальность метода доктора Скального</div>
+          </div>
+
+          <div class="col-xs-18 col-md-9">
+            <div class="bso-backplate-block">
+              <div class="bso-text-b-title">Точный, комплексный подход</div>
+              <div class="bso-p">Метод элементного анализа позволяет исследовать уровень элементов не только в крови и моче, как традиционные анализы, но и работать с волосами и ногтями, выбирая тот биоматериал, который точнее ответит на вопросы врача.</div>
+            </div>
+
+            <div class="bso-backplate-block">
+              <div class="bso-text-b-title">Просто и безболезненно</div>
+              <div class="bso-p">Сдавать кровь в большинстве случаев совсем необязательно. Для анализа достаточно срезать небольшую прядь волос от самого корня или ногти. Пациент может самостоятельно собрать биоматериал и принести в любой медцентр Ситилаб.</div>
+            </div>
           </div>
 
           <div class="col-xs-18 col-md-9">
             <div class="bso-photo-block">
-              <picture><source srcset="img/section_3.webp" type="image/webp"><img class="bso-photo bso-photo--big" src="img/section_3.jpeg"/></picture>
+              <picture><source srcset="img/l2_section_3.webp" type="image/webp"><img class="bso-photo" src="img/l2_section_3.jpeg"/></picture>
             </div>
           </div>
 
-          <div class="col-xs-18 col-md-9">
-            <div class="bso-text-list">
-              <div class="bso-text-item">Регулярные встречи с будущей мамой для сбора анемнеза</div>
-              <div class="bso-text-item">Составление рекомендаций по питанию и физическим нагрузкам, исходя из самочувствия женщины</div>
-              <div class="bso-text-item">Стабилизация психологического состояния будущей мамы</div>
-              <div class="bso-text-item">Профессиональная расшифровка результатов анализов</div>
-              <div class="bso-text-item">Выбор профильных специалистов, исходя из особенностей здоровья и самочувствия женщины во время беременности</div>
-              <div class="bso-text-item">Предоставление необходимой информации о физиологии родов</div>
-              <div class="bso-text-item">Подготовка к родам</div>
-              <div class="bso-text-item">Помощь в первые месяцы жизни малыша</div>
-            </div>
-          </div>
-          
         </div>
       </div>
     </section>
 
     <!-- 4я секция -->
-    <section class="bso-section bso-turquoise-bg">
+    <section class="bso-section bso-section-4">
       <div class="container">
         <div class="row">
-          <div class="col-xs-18 col-md-9">
-            <div class="bso-text-block">
-              <div class="bso-h3">Когда лучше обратиться за помощью к акушерке?</div>
-              <div class="bso-p">В СитиЛаб мы принимаем женщин на любом сроке. Вы можете обратиться в наш центр как только узнали о беременности или когда почувствуете, что вам нужна помощь. Также мы предлагаем предродовое ведение на поздних сроках с 36 недели.</div>
-            </div>
-          </div>
+
           <div class="col-xs-18 col-md-9">
             <div class="bso-photo-block">
-              <picture><source srcset="img/section_4.webp" type="image/webp"><img class="bso-photo" src="img/section_4.jpeg"/></picture>
+              <picture><source srcset="img/l2_section_4.webp" type="image/webp"><img class="bso-photo" src="img/l2_section_4.jpeg"/></picture>
             </div>
           </div>
+
+          <div class="col-xs-18 col-md-9">
+            <div class="bso-text-block">
+              <div class="bso-h3">Профессор Анатолий Викторович Скальный</div>
+              <div class="bso-p">Доктор медицинских наук, основатель научной школы биоэлементологии, вице-президент по специальным проектам Института микроэлементов ЮНЕСКО.</div>
+              <div class="bso-p">Метод доктора Скального определяет наличие частиц вещества, а не излучение или поглощение энергии атомами или молекулами, что позволяет проводить одновременное количественное определение большого числа хим. элементов. Данным способом Скальный добился выявления нарушений здоровья на ранней стадии, когда их невозможно диагностировать другими способами.</div>
+              <div class="bso-p">Метод доктора Скального® существует на рынке медицинских услуг более 35 лет и применяется в клиниках России, Германии, Швейцарии, США и других стран.</div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
     <!-- 5я секция -->
-    <section class="bso-section">
+    <section class="bso-section bso-section-5 bso-turquoise-bg">
       <div class="container">
-        <div class="row">
-          
-          <div class="col-xs-18">
-            <div class="bso-title">Что входит в акушерское сопровождение?</div>
-          </div>
+        <div class="bso-row">
 
-          <div class="col-xs-18 bso-points">
-            <div class="bso-point">
-              <picture><source srcset="img/icon_5_01.webp" type="image/webp"><img src="img/icon_5_01.png" alt=""></picture>
-              <span>Чуткое сопровождение опытным врачом</span>
-            </div>
-
-            <div class="bso-point">
-              <picture><source srcset="img/icon_5_02.webp" type="image/webp"><img src="img/icon_5_02.png" alt=""></picture>
-              <span>Перенатальные скрининги</span>
-            </div>
-
-            <div class="bso-point">
-              <picture><source srcset="img/icon_5_03.webp" type="image/webp"><img src="img/icon_5_03.png" alt=""></picture>
-              <span>УЗИ, ЭКГ</span>
-            </div>
-
-            <div class="bso-point">
-              <picture><source srcset="img/icon_5_04.webp" type="image/webp"><img src="img/icon_5_04.png" alt=""></picture>
-              <span>Необходимые по показаниям лабораторные тесты</span>
-            </div>
-
-            <div class="bso-point">
-              <picture><source srcset="img/icon_5_05.webp" type="image/webp"><img src="img/icon_5_05.png" alt=""></picture>
-              <span>Безопасная конфиденциальная обстановка</span>
+          <div class="bso-col">
+            <div class="bso-photo-block">
+              <picture><source srcset="img/l2_section_5.webp" type="image/webp"><img class="bso-photo" src="img/l2_section_5.jpeg"/></picture>
             </div>
           </div>
+
+          <div class="bso-col">
+            <div class="bso-text-block">
+              <div class="bso-h3">Элементный анализ</div>
+              <div class="bso-text-b-title">Уникальное исследование, основанное на определении содержания макро- и микроэлементов в организме</div>
+              <div class="bso-p">Лаборатория Ситилаб предлагает удобную линейку элементных исследований: содержание отдельных элементов и профили на 3, 6, 13, 17, 18, 19, 23, 25, 40 показателей</div>
+
+              <div class="bso-p">Для полноценной оценки элементного статуса предпочтителен выбор анализа крови и волос.</div>
+
+              <div class="bso-p">В дополнение к комплексному анализу можно заказать заключение по методу доктора Скального с рекомендациями по дальнейшему обследованию, подробным описанием тех элементов, которые находятся в дефиците или избытке, и рекомендациями по питанию.</div>
+
+              <div class="bso-text-b-title">Ткани, которые участвуют в распределении и накоплении химических элементов в организме</div>
+
+              <div class="bso-backplate-block">
+                <div class="bso-text-b-title">Волосы и ногти</div>
+                <div class="bso-p">Анализ отражает особенности усвоения, накопления и выведения элементов за несколько последних месяцев.</div>
+              </div>
+
+              <div class="bso-backplate-block">
+                <div class="bso-text-b-title">Цельная кровь</div>
+                <div class="bso-p">Оценка накопления тяжелых металлов в организме и диагностика хронических заболеваний и отравлений.</div>
+              </div>
+
+              <div class="bso-backplate-block">
+                <div class="bso-text-b-title">Сыворотка/плазма крови</div>
+                <div class="bso-p">Оценка жизненно важных химических элементов, диагностика острых заболеваний и отравлений.</div>
+              </div>
+
+              <div class="bso-backplate-block">
+                <div class="bso-text-b-title">Анализ мочи</div>
+                <div class="bso-p">Оценка выведения химических элементов из организма, подозрение на острые отравления тяжелыми металлами, нарушение работы почек.</div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <!-- Блок с УТП -->
-    <section class="bso-section bso-gradient-bg">
+     <!-- Блок с УТП -->
+     <section class="bso-section bso-gradient-bg">
       <div class="container">
         <div class="row">
           <div class="col-xs-18 col-md-9">
             <div class="bso-text-block">
-              <div class="bso-h3">Узнать больше</div>
-              <div class="bso-p">Наши специалисты ответят на все вопросы о беременности и помогут подобрать подходящую программу консультаций</div>
+              <div class="bso-h3">Сдать микроэлементый анализ</div>
+              <div class="bso-p">Закажите расшифровку результатов от доктора Скального для получения экспертных рекомендаций</div>
             </div>
           </div>
           <div class="col-xs-18 col-md-9">
-            <div class="bso-price">Стоимость услуги: 20 000 руб.</div>
             <div class="bso-btns">
-              <button class="bso-button bso-button--red">Записаться</button>
+              <button class="bso-button bso-button--red">Получить консультацию</button>
             </div>
           </div>
         </div>
@@ -258,6 +1177,6 @@
 
         
 
-        <script src="js/app.min.js?_v=20240620125154"></script>
+        <script src="js/app.min.js?_v=20240629045900"></script>
     </body>
 </html>
