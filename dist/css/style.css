@@ -815,7 +815,7 @@ body,
   height: 12px;
   background: url("../img/Tooltip_arrow.svg") no-repeat;
   position: absolute;
-  bottom: -12px;
+  bottom: -11px;
   right: 6px;
 }
 
